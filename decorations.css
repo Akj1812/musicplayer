@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+}
+nav{
+    font-family: 'Sedgwick Ave', cursive;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: rgb(189, 192, 188);
+}
+nav li{
+    display:inline-flex;
+    align-items: center;}
+nav ul li{
+    padding: 0 12px;
+}
+.head img{
+    width:48px;
+    padding: 0 8px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(25, 25, 32);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 95vh;
+    background-color: rgba(53, 73, 36, 0.507);
+    color: aquamarine;
+    font-family: 'Sedgwick Ave', cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    font-size: x-small;
+    background-image: url("3.jpg");
+    
+    
+    
+}
+#myprogressbar{
+    width: 80vw;
+    
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+
+}
+.songitem img{
+    width: 48px;
+    margin: 0 23px ;
+    border-radius: 44px;
+
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: blanchedalmond;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    border-radius: 25px;
+    margin: 5px;
+    
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+#rakakaka{
+    border-radius:50px ;
+    height: min-content;
+}
